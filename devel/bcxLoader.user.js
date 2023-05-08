@@ -6,9 +6,9 @@
 // @author       Jomshir98
 // @include      /^https:\/\/(www\.)?bondageprojects\.elementfx\.com\/R\d+\/(BondageClub|\d+)(\/((index|\d+)\.html)?)?$/
 // @include      /^https:\/\/(www\.)?bondage-europe\.com\/R\d+\/(BondageClub|\d+)(\/((index|\d+)\.html)?)?$/
-// @homepage     https://github.com/bananarama92/bondage-club-extended#readme
-// @source       https://github.com/bananarama92/bondage-club-extended
-// @downloadURL  https://bananarama92.github.io/bondage-club-extended/devel/bcxLoader.user.js
+// @homepage     https://github.com/jomshir98/bondage-club-extended#readme
+// @source       https://github.com/jomshir98/bondage-club-extended
+// @downloadURL  https://jomshir98.github.io/bondage-club-extended/devel/bcxLoader.user.js
 // @run-at       document-end
 // @grant        none
 // ==/UserScript==
@@ -20,7 +20,7 @@ setTimeout(
 			const n = document.createElement("script");
 			n.setAttribute("language", "JavaScript");
 			n.setAttribute("crossorigin", "anonymous");
-			n.setAttribute("src", "https://bananarama92.github.io/bondage-club-extended/devel/bcx.js?_=" + Date.now());
+			n.setAttribute("src", "https://jomshir98.github.io/bondage-club-extended/devel/bcx.js?_=" + Date.now());
 			n.onload = () => n.remove();
 			document.head.appendChild(n);
 		}
